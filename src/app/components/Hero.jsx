@@ -12,7 +12,7 @@ const Hero = () => {
         Inspired by the amazing
         <span className="font-semibold">image bazar</span> app
       </a>
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
+      <h1 className="mx-auto max-w-[95vw] font-display text-3xl font-bold tracking-normal text-slate-900 sm:text-7xl">
         Purchase photos
         <span className="relative whitespace-nowrap text-orange-400">
           <svg
