@@ -59,7 +59,7 @@ const Gallery = () => {
         {selectedImage ? (
           <ImageDetail image={selectedImage} onClose={handleClose} />
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-[100px] w-[90vw] mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-[100px] w-[90vw] mx-auto mb-[100px]">
             {images.map((image, index) => (
               <div key={index} onClick={() => handleClick(image)}>
                 <img
